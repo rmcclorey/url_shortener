@@ -1,0 +1,19 @@
+<DOCTYPE html> 
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>
+            Url Shortener
+        </h1>
+        <form action='/url' method='post'>
+            <label for="url">Url:</label> <br>
+            <input type="text" id="url" name="url">
+            <input type="submit" value="Submit">
+        </form>
+        {% if shortened_url %}
+            <br>
+            <p>{{ shortened_url }}</p>
+        {% endif %} 
+    </body>
+</html>
