@@ -8,5 +8,5 @@ A url shorterner app as a hello world for flask, using python's builtin database
 ## General Info
 I build this app to get a basic feel for setting up small flask apps. When a url is input it returns a short randomized url that will redirect to the original url. 
 
-##Technologies
+## Technologies
 * [Flask](https://flask.palletsprojects.com/en/2.0.x/) A web microframework
